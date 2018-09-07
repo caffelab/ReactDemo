@@ -1,0 +1,44 @@
+
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 4.4rem;
+    line-height: 4.4rem;
+    font-size: 1.7rem;
+    color: #FFFFFF;
+    background: #00B598;
+    text-align: center;
+    z-index: 100;
+}
+.index {
+    width: 9.5rem;
+    height: 2.8rem;
+    position: absolute;
+    left: 1rem;
+    top: .8rem;
+}
+.per-icon {
+    position: absolute;
+    top: 1.2rem;
+    right: 1rem;
+    display: block;
+    width: 2rem;
+    height: 2rem;
+}
+
+.index-banner {
+    width: 100%;
+    height: 6.5rem;
+}
+
+.index-banner-img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.h44 {
+    height: 4.4rem;
+}
