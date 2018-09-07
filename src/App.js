@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
-import IndexNav from './Public/Nav/IndexNav'
+import Index from './Public/Page/index'
 class App extends Component {
   render() {
     return (
       <div className="App">
-          <IndexNav/>
+          <Index/>
       </div>
     );
   }

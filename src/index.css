@@ -6,10 +6,24 @@ body {
   height: 100%;
   color: #4A4A4A;
 }
+
 html {
   font: 62.5% STHeiti,Arial;
   word-wrap: break-word;
   word-break: break-all;
   text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+.card-kind p {
+  border-right: 1px solid #F5F5F5;
+  box-sizing: border-box;
 }

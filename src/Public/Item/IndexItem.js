@@ -1,4 +1,4 @@
-import {Component} from 'react';
+import React,{Component} from 'react';
 
 class IndexItem extends Component{
     constructor(props){
@@ -8,16 +8,21 @@ class IndexItem extends Component{
         }
     }
     render(){
-        return(
+        let list = this.props.cat.data.map(function(ca){
             <li>
+                <a>{ca.name}</a>
+            </li>
+        });
+        return(
+             <li>
                 <div className="card-name">
-                    <img src={}/>
+                    <img src=""/>
                     {this.state.info}
                 </div>
                 <ol className="card-kind">
-                    <li></li>
+                   {list}
                 </ol>
-            </li>
+            </li> 
         );
     }
 }

@@ -1,0 +1,16 @@
+.card-name {
+    line-height: 5.4rem;
+    font-size: 1.5rem;
+    color: #4A4A4A;
+    border-bottom: 1px solid #F5F5F5;
+}
+.card-kind li {
+    width: 25%;
+    float: left;
+    line-height: 1.8rem;
+    font-size: 1.3rem;
+    color: #9B9B9B;
+    text-align: center;
+    padding: 1.6rem 0;
+    border-bottom: 1px solid #F5F5F5;
+}
