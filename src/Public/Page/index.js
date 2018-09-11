@@ -1,4 +1,4 @@
-import {Component} from 'react';
+import React,{Component} from 'react';
 import IndexNav from '../Nav/IndexNav';
 import IndexItem from '../Item/IndexItem';
 
@@ -22,8 +22,8 @@ class Index extends Component{
         return (
             <div>
                 <IndexNav/>
-                this.state.category.map(function(cat){
-                    <IndexItem>{cat.data}</IndexItem>
+                this.state.category.map(function(item){
+                    <IndexItem catName= {item.data}/>
                 })
             </div>
         );

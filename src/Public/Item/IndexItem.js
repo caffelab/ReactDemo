@@ -8,7 +8,7 @@ class IndexItem extends Component{
         }
     }
     render(){
-        let list = this.props.cat.data.map(function(ca){
+        let list = this.props.catName.map(function(ca){
             <li>
                 <a>{ca.name}</a>
             </li>
